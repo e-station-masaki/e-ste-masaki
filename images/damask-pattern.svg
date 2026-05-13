@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="140" viewBox="0 0 100 140">
+  <!-- Transparent background — overlays on CSS background-color -->
+
+  <!-- Top shield/flame -->
+  <path d="M50,3 C44,3 37,10 35,20 C33,30 35,42 40,50 C44,56 50,59 50,59 C50,59 56,56 60,50 C65,42 67,30 65,20 C63,10 56,3 50,3 Z"
+        fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.22)" stroke-width="1.3"/>
+  <!-- Top flourish -->
+  <path d="M46,3 C48,0 50,-1 50,-1 C50,-1 52,0 54,3"
+        fill="none" stroke="rgba(255,255,255,0.16)" stroke-width="0.9"/>
+
+  <!-- Center oval -->
+  <ellipse cx="50" cy="70" rx="9" ry="13"
+           fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.22)" stroke-width="1.3"/>
+
+  <!-- Bottom shield/flame (mirror) -->
+  <path d="M50,137 C44,137 37,130 35,120 C33,110 35,98 40,90 C44,84 50,81 50,81 C50,81 56,84 60,90 C65,98 67,110 65,120 C63,130 56,137 50,137 Z"
+        fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.22)" stroke-width="1.3"/>
+  <!-- Bottom flourish -->
+  <path d="M46,137 C48,140 50,141 50,141 C50,141 52,140 54,137"
+        fill="none" stroke="rgba(255,255,255,0.16)" stroke-width="0.9"/>
+
+  <!-- Connecting stems: top shield → oval (left) -->
+  <path d="M35,20 C27,34 26,48 35,59" fill="none" stroke="rgba(255,255,255,0.13)" stroke-width="1"/>
+  <path d="M35,59 C29,63 28,68 35,70"  fill="none" stroke="rgba(255,255,255,0.11)" stroke-width="0.8"/>
+  <!-- Connecting stems: oval → bottom shield (left) -->
+  <path d="M35,70 C29,72 27,78 35,81"  fill="none" stroke="rgba(255,255,255,0.11)" stroke-width="0.8"/>
+  <path d="M35,81 C26,92 27,106 35,120" fill="none" stroke="rgba(255,255,255,0.13)" stroke-width="1"/>
+
+  <!-- Connecting stems right -->
+  <path d="M65,20 C73,34 74,48 65,59" fill="none" stroke="rgba(255,255,255,0.13)" stroke-width="1"/>
+  <path d="M65,59 C71,63 72,68 65,70"  fill="none" stroke="rgba(255,255,255,0.11)" stroke-width="0.8"/>
+  <path d="M65,70 C71,72 73,78 65,81"  fill="none" stroke="rgba(255,255,255,0.11)" stroke-width="0.8"/>
+  <path d="M65,81 C74,92 73,106 65,120" fill="none" stroke="rgba(255,255,255,0.13)" stroke-width="1"/>
+
+  <!-- Left scroll ornament (upper) -->
+  <path d="M35,59 C23,52 13,57 17,67 C21,75 33,70 35,59"
+        fill="none" stroke="rgba(255,255,255,0.17)" stroke-width="1.1"/>
+  <path d="M17,67 C9,63 5,73 13,77"
+        fill="none" stroke="rgba(255,255,255,0.11)" stroke-width="0.8"/>
+
+  <!-- Left scroll ornament (lower) -->
+  <path d="M35,81 C23,75 13,80 17,90 C21,98 33,93 35,81"
+        fill="none" stroke="rgba(255,255,255,0.17)" stroke-width="1.1"/>
+
+  <!-- Right scroll ornament (upper) -->
+  <path d="M65,59 C77,52 87,57 83,67 C79,75 67,70 65,59"
+        fill="none" stroke="rgba(255,255,255,0.17)" stroke-width="1.1"/>
+  <path d="M83,67 C91,63 95,73 87,77"
+        fill="none" stroke="rgba(255,255,255,0.11)" stroke-width="0.8"/>
+
+  <!-- Right scroll ornament (lower) -->
+  <path d="M65,81 C77,75 87,80 83,90 C79,98 67,93 65,81"
+        fill="none" stroke="rgba(255,255,255,0.17)" stroke-width="1.1"/>
+
+  <!-- Edge accent dots for seamless tiling -->
+  <circle cx="0"   cy="70" r="2.5" fill="rgba(255,255,255,0.14)"/>
+  <circle cx="100" cy="70" r="2.5" fill="rgba(255,255,255,0.14)"/>
+  <circle cx="50"  cy="0"  r="2"   fill="rgba(255,255,255,0.12)"/>
+  <circle cx="50"  cy="140" r="2"  fill="rgba(255,255,255,0.12)"/>
+</svg>

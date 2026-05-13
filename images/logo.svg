@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="logoBg" cx="38%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#9333EA"/>
+      <stop offset="100%" stop-color="#4C1D95"/>
+    </radialGradient>
+    <clipPath id="logoClip">
+      <circle cx="50" cy="50" r="45"/>
+    </clipPath>
+  </defs>
+
+  <!-- Outer dark ring -->
+  <circle cx="50" cy="50" r="49" fill="#2D0A7A"/>
+  <!-- Gradient fill -->
+  <circle cx="50" cy="50" r="45" fill="url(#logoBg)"/>
+
+  <!-- Sunburst rays clipped to circle -->
+  <g clip-path="url(#logoClip)" opacity="0.28">
+    <rect x="48.5" y="5" width="3"   height="90" fill="white" transform="rotate(0   50 50)"/>
+    <rect x="49"   y="5" width="1.5" height="90" fill="white" transform="rotate(22.5 50 50)"/>
+    <rect x="48.5" y="5" width="3"   height="90" fill="white" transform="rotate(45  50 50)"/>
+    <rect x="49"   y="5" width="1.5" height="90" fill="white" transform="rotate(67.5 50 50)"/>
+    <rect x="48.5" y="5" width="3"   height="90" fill="white" transform="rotate(90  50 50)"/>
+    <rect x="49"   y="5" width="1.5" height="90" fill="white" transform="rotate(112.5 50 50)"/>
+    <rect x="48.5" y="5" width="3"   height="90" fill="white" transform="rotate(135 50 50)"/>
+    <rect x="49"   y="5" width="1.5" height="90" fill="white" transform="rotate(157.5 50 50)"/>
+  </g>
+
+  <!-- White bold E (path-based for cross-browser consistency) -->
+  <!-- Outer: left=18, right=72, top=20, bottom=80 / stem width=14 -->
+  <path d="M18,20 H72 V34 H32 V45 H64 V55 H32 V66 H72 V80 H18 Z" fill="white"/>
+</svg>

@@ -346,10 +346,21 @@ h3 { font-size: 1.25rem; }
   transform: translateY(-3px);
 }
 
+.card__thumb-link {
+  display: block;
+  overflow: hidden;
+}
+
 .card__thumb {
   width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.card__thumb-link:hover .card__thumb {
+  transform: scale(1.04);
 }
 
 .card__thumb--placeholder {

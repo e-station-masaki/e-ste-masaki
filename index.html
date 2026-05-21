@@ -49,21 +49,40 @@
   <main>
     <!-- ヒーローエリア -->
     <section class="hero">
-      <div class="container">
-        <p class="hero__eyebrow">ENTERTAINMENT STATION MASAKI</p>
-        <h1 class="hero__title">
-          推しのダンスを、<span>もっと深く</span>知りたいあなたへ
-        </h1>
-        <p class="hero__desc">
-          Number_i・JO1・BE:FIRST・Snow Man・BTS・Stray Kidsなど、日本・韓国アイドルのダンスを徹底解説。パフォーマンスの魅力を一緒に掘り下げましょう。
-        </p>
-        <div class="hero__actions">
-          <a href="https://www.youtube.com/@E-StationMasaki" class="btn btn--primary" target="_blank" rel="noopener">
-            ▶ YouTubeで動画を見る
-          </a>
-          <a href="/e-ste-masaki/articles/" class="btn btn--outline">
-            記事一覧を見る
-          </a>
+      <!-- バナー画像（クリックでYouTubeへ） -->
+      <a
+        href="https://www.youtube.com/@E-StationMasaki"
+        target="_blank"
+        rel="noopener"
+        class="hero__banner-link"
+        aria-label="E-ステ Masaki YouTubeチャンネルを見る"
+      >
+        <img
+          src="images/hero-banner.jpg"
+          alt="推し活がもっと楽しくなる - E-ステ Masaki ENTERTAINMENT STATION"
+          class="hero__banner-img"
+          width="1060"
+          height="175"
+          loading="eager"
+          fetchpriority="high"
+        />
+      </a>
+
+      <!-- CTA エリア -->
+      <div class="hero__cta-row">
+        <div class="container">
+          <p class="hero__tagline">
+            Number_i・JO1・BE:FIRST・Snow Man・BTS・Stray Kidsなど<br>
+            日本・韓国アイドルのパフォーマンスを深掘りするブログ＆YouTubeチャンネル
+          </p>
+          <div class="hero__actions">
+            <a href="https://www.youtube.com/@E-StationMasaki" class="btn btn--primary" target="_blank" rel="noopener">
+              ▶ YouTubeで動画を見る
+            </a>
+            <a href="/e-ste-masaki/articles/" class="btn btn--outline">
+              記事一覧を見る
+            </a>
+          </div>
         </div>
       </div>
     </section>

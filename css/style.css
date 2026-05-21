@@ -524,8 +524,17 @@ h3 { font-size: 1.25rem; }
   aspect-ratio: 16/9;
   object-fit: cover;
   border-radius: 8px;
-  margin-bottom: 32px;
+  margin-bottom: 8px;
+  display: block;
 }
+
+.eyecatch-credit {
+  font-size: 0.72rem;
+  color: #9CA3AF;
+  text-align: right;
+  margin-bottom: 28px;
+}
+.eyecatch-credit a { color: #9CA3AF; }
 
 .eyecatch--placeholder {
   width: 100%;
